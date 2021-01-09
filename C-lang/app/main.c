@@ -6,9 +6,8 @@
 //
 
 #include <stdio.h>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+#include "Session1.h"
+int main() {
+    printf("%ld\n",combi(10,5));
     return 0;
 }
