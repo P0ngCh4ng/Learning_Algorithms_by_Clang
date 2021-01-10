@@ -10,4 +10,6 @@
 
 #include <stdio.h>
 long combi(int n, int r);
+long horner(double x, double* a, int n);
+void hist(int* a,int* b);
 #endif /* Session1_h */
